@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Timetable</string>
+    <string name="title_activity_start3">start3</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="this_android_application_emphasizes_on_providing_timetables_notices_of_all_the_divisions_of_computer_department_this_application_is_developed_for_mescoe_students_by_a_small_group_of_te_comp_students"><![CDATA[This Android Application emphasizes on providing Timetables & Notices of all the Divisions of Computer Department.This Application is developed for Mescoe students by a small group of TE Comp students !!]]></string>
+
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+
+
+    </string-array>
+
+
+</resources>

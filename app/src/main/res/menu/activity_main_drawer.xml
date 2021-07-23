@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/se_timetable"
+            android:icon="@drawable/sete"
+            android:title="SE Timetable" />
+        <item
+            android:id="@+id/te_timetable"
+            android:icon="@drawable/sete"
+            android:title="TE Timetable" />
+        <item
+            android:id="@+id/be_timetable"
+            android:icon="@drawable/be1"
+            android:title="BE Timetable" />
+        <item
+            android:id="@+id/notice"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="Notice"/>
+
+        <item
+            android:id="@+id/theme"
+            android:icon="@drawable/ic_theme"
+            android:title="Themes"/>
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/About"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="App Developers" />
+            <item
+                android:id="@+id/mail"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mail us your Quries" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider3"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:auto_cycle="true"
+        app:corner_radius="5"
+        app:delay="10"
+        app:error_image="@drawable/clg4"
+        app:period="1000"
+        app:placeholder="@drawable/clg4">
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="231dp"
+        android:text="Welcome to Mescoe Computer Department Timetable Android Application"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="321dp"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="121dp"
+        android:text="This Android Application Emphasizes on providing timetables,notices of all the Years along with their divisions of Computer Department.This application is developed for Mescoe students by a small group of Mescoe TE Comp Students."
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:textSize="18sp"
+        android:textColorHighlight="@color/textcolor"
+        android:textColor="@color/textcolor"/>
+
+    <Button
+        android:id="@+id/Exit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/button"
+        android:text="Exit"
+        android:textColor="@color/buttontext" />
+
+</RelativeLayout>
+
+
+
+

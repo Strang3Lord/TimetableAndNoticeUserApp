@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mail"
+    android:layout_marginHorizontal="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo7" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#0C0000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:outlineProvider="background"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="This Android Application is compatible on all devices which uses Android O.S ranging from 4.1 Jelly Bean to all Higher versions.Feel free to Contact us if you have any Query"
+        android:textAlignment="gravity"
+        android:textColor="@color/notice_name"
+        android:textColorHighlight="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#0C0000" />
+
+
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineProvider="bounds"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:text="App Version : 1.0"
+        android:textColor="@color/notice_name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#0C0000" />
+
+    <LinearLayout
+        android:layout_marginVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/gmail_icon"
+            android:id="@+id/gmail"/>
+
+
+        <ImageView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/insta"
+            android:id="@+id/instagram"/>
+
+        <ImageView
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/github"
+            android:id="@+id/github"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#0C0000" />
+
+
+</LinearLayout>

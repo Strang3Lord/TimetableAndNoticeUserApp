@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+<item android:drawable="@color/white"/>
+    <item>
+        <bitmap
+            android:src="@drawable/logo7"
+            android:background="@color/skyBlue"
+            android:gravity="center"/>
+        <item>
+    </item>
+    </item>
+
+<!--        <item android:bottom="280dp">-->
+<!--    <bitmap-->
+<!--        android:src="@drawable/newlogo"-->
+<!--        android:gravity="bottom"-->
+<!--        android:visibility="visible"/>-->
+<!--    </item>-->
+</layer-list>

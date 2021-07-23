@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D81B60</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="Ghost">#f8f8ff</color>
+    <color name="Azure">#F0FFFF</color>
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="skyBlue">#48b4e0</color>
+    <color name="orangered">#FF4500</color>
+    <color name="blue">#8366f4</color>
+    <color name="darkblue">#0e4bef</color>
+    <color name="demo34">#5b86e5</color>
+    <color name="pink">#fc0fc0</color>
+    <color name="textcolor">#000000</color>
+    <color name="button">#DB1B60</color>
+    <color name="buttontext">#FFFFFF</color>
+    <color name="floatb">#FFFFFF</color>
+    <color name="headertext">#000000</color>
+    <color name="notice_name">#000000</color>
+    <color name="view">#DB1B60</color>
+
+
+</resources>
+

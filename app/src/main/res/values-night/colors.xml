@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <color name="colorPrimary">#282828</color>
+<color name="colorPrimaryDark">#000000</color>
+<color name="colorAccent">#f8f8ff</color>
+<color name="button">#f8f8ff</color>
+<color name="textcolor">#f8f8ff</color>
+<color name="buttontext">#000000</color>
+<color name="floatb">#282828</color>
+<color name="headertext">#FFFFFF</color>
+    <color name="notice_name">#FFFFFF</color>
+    <color name="view">#fff</color>
+
+</resources>
